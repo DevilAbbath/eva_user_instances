@@ -30,7 +30,7 @@ def crear_usuarios_desde_archivo(archivo_usuarios, carpeta_log):
     
     usuarios_creados = len(usuarios)
     print(f"\nSe han creado un total de {usuarios_creados} usuarios")
-    print(f"Se han detectado {errores_detectados} usuarios con errod de registro, favor revisar el archivo error.log \n")
+    print(f"Se han detectado {errores_detectados} usuarios con error de registro, favor revisar el archivo error.log \n")
 
 
     return usuarios
